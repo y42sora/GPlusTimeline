@@ -1,0 +1,299 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		6073EEF3176E07A400F58295 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6073EEF2176E07A400F58295 /* UIKit.framework */; };
+		6073EEF5176E07A400F58295 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6073EEF4176E07A400F58295 /* Foundation.framework */; };
+		6073EEF7176E07A400F58295 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6073EEF6176E07A400F58295 /* CoreGraphics.framework */; };
+		6073EEFD176E07A400F58295 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6073EEFB176E07A400F58295 /* InfoPlist.strings */; };
+		6073EEFF176E07A400F58295 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073EEFE176E07A400F58295 /* main.m */; };
+		6073EF03176E07A400F58295 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073EF02176E07A400F58295 /* AppDelegate.m */; };
+		6073EF05176E07A400F58295 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 6073EF04176E07A400F58295 /* Default.png */; };
+		6073EF07176E07A400F58295 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6073EF06176E07A400F58295 /* Default@2x.png */; };
+		6073EF09176E07A400F58295 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 6073EF08176E07A400F58295 /* Default-568h@2x.png */; };
+		6073EF1D176E07CF00F58295 /* TimelineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073EF1A176E07CF00F58295 /* TimelineViewController.m */; };
+		6073EF1E176E07CF00F58295 /* TimelineCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 6073EF1C176E07CF00F58295 /* TimelineCell.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		6073EEEF176E07A400F58295 /* GPlusTimeline.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GPlusTimeline.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		6073EEF2176E07A400F58295 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		6073EEF4176E07A400F58295 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		6073EEF6176E07A400F58295 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		6073EEFA176E07A400F58295 /* GPlusTimeline-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "GPlusTimeline-Info.plist"; sourceTree = "<group>"; };
+		6073EEFC176E07A400F58295 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		6073EEFE176E07A400F58295 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		6073EF00176E07A400F58295 /* GPlusTimeline-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "GPlusTimeline-Prefix.pch"; sourceTree = "<group>"; };
+		6073EF01176E07A400F58295 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		6073EF02176E07A400F58295 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		6073EF04176E07A400F58295 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		6073EF06176E07A400F58295 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		6073EF08176E07A400F58295 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		6073EF19176E07CF00F58295 /* TimelineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineViewController.h; sourceTree = "<group>"; };
+		6073EF1A176E07CF00F58295 /* TimelineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineViewController.m; sourceTree = "<group>"; };
+		6073EF1B176E07CF00F58295 /* TimelineCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimelineCell.h; sourceTree = "<group>"; };
+		6073EF1C176E07CF00F58295 /* TimelineCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimelineCell.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		6073EEEC176E07A400F58295 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6073EEF3176E07A400F58295 /* UIKit.framework in Frameworks */,
+				6073EEF5176E07A400F58295 /* Foundation.framework in Frameworks */,
+				6073EEF7176E07A400F58295 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6073EEE6176E07A400F58295 = {
+			isa = PBXGroup;
+			children = (
+				6073EEF8176E07A400F58295 /* GPlusTimeline */,
+				6073EEF1176E07A400F58295 /* Frameworks */,
+				6073EEF0176E07A400F58295 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		6073EEF0176E07A400F58295 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6073EEEF176E07A400F58295 /* GPlusTimeline.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		6073EEF1176E07A400F58295 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				6073EEF2176E07A400F58295 /* UIKit.framework */,
+				6073EEF4176E07A400F58295 /* Foundation.framework */,
+				6073EEF6176E07A400F58295 /* CoreGraphics.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		6073EEF8176E07A400F58295 /* GPlusTimeline */ = {
+			isa = PBXGroup;
+			children = (
+				6073EF19176E07CF00F58295 /* TimelineViewController.h */,
+				6073EF1A176E07CF00F58295 /* TimelineViewController.m */,
+				6073EF1B176E07CF00F58295 /* TimelineCell.h */,
+				6073EF1C176E07CF00F58295 /* TimelineCell.m */,
+				6073EF01176E07A400F58295 /* AppDelegate.h */,
+				6073EF02176E07A400F58295 /* AppDelegate.m */,
+				6073EEF9176E07A400F58295 /* Supporting Files */,
+			);
+			path = GPlusTimeline;
+			sourceTree = "<group>";
+		};
+		6073EEF9176E07A400F58295 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				6073EEFA176E07A400F58295 /* GPlusTimeline-Info.plist */,
+				6073EEFB176E07A400F58295 /* InfoPlist.strings */,
+				6073EEFE176E07A400F58295 /* main.m */,
+				6073EF00176E07A400F58295 /* GPlusTimeline-Prefix.pch */,
+				6073EF04176E07A400F58295 /* Default.png */,
+				6073EF06176E07A400F58295 /* Default@2x.png */,
+				6073EF08176E07A400F58295 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		6073EEEE176E07A400F58295 /* GPlusTimeline */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6073EF12176E07A400F58295 /* Build configuration list for PBXNativeTarget "GPlusTimeline" */;
+			buildPhases = (
+				6073EEEB176E07A400F58295 /* Sources */,
+				6073EEEC176E07A400F58295 /* Frameworks */,
+				6073EEED176E07A400F58295 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GPlusTimeline;
+			productName = GPlusTimeline;
+			productReference = 6073EEEF176E07A400F58295 /* GPlusTimeline.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		6073EEE7176E07A400F58295 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = y42sora;
+			};
+			buildConfigurationList = 6073EEEA176E07A400F58295 /* Build configuration list for PBXProject "GPlusTimeline" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 6073EEE6176E07A400F58295;
+			productRefGroup = 6073EEF0176E07A400F58295 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				6073EEEE176E07A400F58295 /* GPlusTimeline */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		6073EEED176E07A400F58295 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6073EEFD176E07A400F58295 /* InfoPlist.strings in Resources */,
+				6073EF05176E07A400F58295 /* Default.png in Resources */,
+				6073EF07176E07A400F58295 /* Default@2x.png in Resources */,
+				6073EF09176E07A400F58295 /* Default-568h@2x.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6073EEEB176E07A400F58295 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6073EEFF176E07A400F58295 /* main.m in Sources */,
+				6073EF03176E07A400F58295 /* AppDelegate.m in Sources */,
+				6073EF1D176E07CF00F58295 /* TimelineViewController.m in Sources */,
+				6073EF1E176E07CF00F58295 /* TimelineCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		6073EEFB176E07A400F58295 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				6073EEFC176E07A400F58295 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		6073EF10176E07A400F58295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		6073EF11176E07A400F58295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		6073EF13176E07A400F58295 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPlusTimeline/GPlusTimeline-Prefix.pch";
+				INFOPLIST_FILE = "GPlusTimeline/GPlusTimeline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		6073EF14176E07A400F58295 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "GPlusTimeline/GPlusTimeline-Prefix.pch";
+				INFOPLIST_FILE = "GPlusTimeline/GPlusTimeline-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		6073EEEA176E07A400F58295 /* Build configuration list for PBXProject "GPlusTimeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6073EF10176E07A400F58295 /* Debug */,
+				6073EF11176E07A400F58295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6073EF12176E07A400F58295 /* Build configuration list for PBXNativeTarget "GPlusTimeline" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6073EF13176E07A400F58295 /* Debug */,
+				6073EF14176E07A400F58295 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 6073EEE7176E07A400F58295 /* Project object */;
+}
